@@ -1,0 +1,117 @@
+h1{
+    text-decoration: underline;
+    border: 2px solid black;
+    height: 40px;
+    background:linear-gradient(to right, red , yellow , green);
+    width: 100%;
+    text-align: center;
+}
+.ul{
+    margin-left: 15%;
+   text-align: center;
+   background-color: lightgreen;
+   border: 2px solid black;
+   border-radius: 10px;
+   width: 70%;
+}
+ul{
+    display: inline-block;
+}
+.rect{
+    height: 250px;
+    width: 100%;
+    background-color:lightseagreen;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.box{
+    width: 30%;
+    height: 100px;
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: lightyellow;
+}
+.box3{
+    position: absolute;
+    bottom: 20px;
+}
+h2{
+    text-decoration: underline;
+    height: 30px;
+    background: linear-gradient(to right, lightgreen , lightyellow, lightskyblue);
+    width: 100%;
+    text-align: center;
+}
+.rank{
+    align-items: center;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    background: radial-gradient(orange , grey , pink);
+    border: 2px solid black;
+}
+.name{
+    text-decoration: underline;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-align: center;
+    line-height: 30px;
+    background-color: lightcoral;
+    width: 300px;
+   height: 100px;
+   border: 2px solid black;
+   border-radius: 10px;
+}
+.grid{
+    border: 1px solid black;
+    gap: 15px;
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto auto auto ;
+}
+.pot{
+    box-shadow: 0px 0px 5px black;
+    border: 1px solid whitesmoke;
+    font-weight: bold;
+    text-align: center;
+}
+.pot1{
+    background-color: lightcoral;
+    grid-column:1/5 ;
+    grid-row:1/2 ;
+}
+.pot2{
+    background-color: lightskyblue;
+    grid-column: 1/2;
+    grid-row:2/3 ;
+}
+.pot3{
+    background-color: lightgreen;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.pot4{
+    background-color: lightgoldenrodyellow;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.pot6{
+    text-decoration:underline;
+    background-color: lightslategray;
+    grid-column:4/5 ;
+    grid-row:2/4 ;
+}
+.pot5{
+    background-color: lightseagreen;
+    grid-column:1/4 ;
+    grid-row: 3/4;
+}
+.pot7{
+    background-color: lightsalmon;
+    grid-column: 1/5;
+    grid-row: 4/5;
+}
